@@ -70,7 +70,7 @@ const Work = () => {
               </span>
               {/* hoveritems _buttons -2*/}
               <div className="pt-2 text-center">
-                <a href="https://github.com/Sumiakhan/Projects/blob/cab95121f234a224172e6306f3f58123e63b8405/SQL%20Query.sql">
+                <a href="https://github.com/Sumiakhan/sql-project/blob/main/SQL%20Query.sql">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
