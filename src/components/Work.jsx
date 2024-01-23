@@ -121,12 +121,12 @@ const Work = () => {
 
               {/* hoveritems _buttons -4*/}
               <div className="pt-2 text-center">
-                <a href="/">
+                <a href="https://sumiakhan.github.io/portfolio/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Sumiakhan/portfolio">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
