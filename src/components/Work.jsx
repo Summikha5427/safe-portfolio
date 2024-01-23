@@ -121,7 +121,7 @@ const Work = () => {
 
               {/* hoveritems _buttons -4*/}
               <div className="pt-2 text-center">
-                <a href="https://sumiakhan.github.io/portfolio/">
+                <a href=" https://sumiakhan.github.io/portfolio/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
