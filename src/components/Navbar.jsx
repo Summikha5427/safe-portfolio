@@ -5,7 +5,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import Logo from "../assests/Logo.png";
 import { Link } from "react-scroll";
 import navimg from "../assests/navbar-image.jpg";
-import resume from "../assests/Resume.pdf";
+import resume from "../assests/SumiaKhanResume.pdf"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -103,15 +103,15 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#310f0f33] opacity-100">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#a57a7a33] opacity-80">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-white"
               href="https://www.github.com/Sumiakhan/Projects.git"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0f5848]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5dc4ad]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:sumia2135@gmail.com?cc=bavazeer13@gmail.com&bcc=summikhan5426@gmail.com"
@@ -119,7 +119,7 @@ const Navbar = () => {
               Email Me <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#79818b]">
             <a className="flex justify-between items-center w-full text-gray-300"
               href={resume}
               target="_blank"
