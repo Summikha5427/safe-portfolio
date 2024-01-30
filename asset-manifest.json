@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79656091.css",
+    "main.js": "/static/js/main.75be2b88.js",
+    "static/media/SumiaKhanResume.pdf": "/static/media/SumiaKhanResume.b799ccab8edff71fe0d1.pdf",
+    "static/media/DevOps.jpeg": "/static/media/DevOps.87139e94db7895e66c47.jpeg",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/ttt.jpg": "/static/media/ttt.e216a07a78b6e0e00903.jpg",
+    "static/media/bookstore.jpg": "/static/media/bookstore.34ff6ef419da64d1f3d5.jpg",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.79656091.css.map": "/static/css/main.79656091.css.map",
+    "main.75be2b88.js.map": "/static/js/main.75be2b88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79656091.css",
+    "static/js/main.75be2b88.js"
+  ]
+}
