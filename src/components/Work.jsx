@@ -1,7 +1,7 @@
 import React from "react";
 import ttt from "../assests/ttt.jpg";
 import sql from "../assests/sql.jpg";
-import devops from "../assests/devops.jpg";
+import devops from "../assests/DevOps.jpeg";
 import bookstore from "../assests/bookstore.jpg";
 import logo from "../assests/Logo.png";
 import enm from "../assests/enm.png";
@@ -140,20 +140,20 @@ const Work = () => {
 
           {/* CARD-item {project-5} */}
           <div
-            style={{ backgroundImage: `url(${enm})` }}
+            style={{ backgroundImage: `url(${devops})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effects -5 */}
+            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 pt-2 text-center">
-              <p className="text-2xl font-bold text-white tracking-wider ">
-                BackEnd-Application
-              </p>
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Devops Project
+              </span>
 
-              {/* hoveritems _buttons */}
+              {/* hoveritems _buttons -5 */}
               <div className="pt-2 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Working on project
+                    Working on Devops
                   </button>
                 </a>
                 <a href="/">
@@ -164,22 +164,23 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           {/* CARD-item {project-6} */}
           <div
-            style={{ backgroundImage: `url(${devops})` }}
+            style={{ backgroundImage: `url(${enm})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effects */}
+            {/* Hover Effects -6 */}
             <div className="opacity-0 group-hover:opacity-100 pt-2 text-center">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Devops Project
-              </span>
+              <p className="text-2xl font-bold text-white tracking-wider ">
+                BackEnd-Application
+              </p>
 
-              {/* hoveritems _buttons -6 */}
+              {/* hoveritems _buttons */}
               <div className="pt-2 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Working on Devops
+                    Working on project
                   </button>
                 </a>
                 <a href="/">

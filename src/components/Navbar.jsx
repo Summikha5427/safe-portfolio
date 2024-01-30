@@ -5,7 +5,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import Logo from "../assests/Logo.png";
 import { Link } from "react-scroll";
 import navimg from "../assests/navbar-image.jpg";
-import resume from "../assests/SumiaKhanResume.pdf"
+import resume from "../assests/SumiaKhanResume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -90,6 +90,48 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+
+        {/* Social menu */}
+
+        <li className="py-6 text-3xl">
+          <a
+            className="flex justify-between items-center w-full text-gray-300"
+            href="https://www.linkedin.com/in/sumia-khan-287907298"
+          >
+            Linkedin <FaLinkedin size={30} />
+          </a>
+        </li>
+
+        <li className="py-6 text-3xl">
+          {" "}
+          <a
+            className="flex justify-between items-center w-full text-white"
+            href="https://www.github.com/Sumiakhan/Projects.git"
+          >
+            Github <FaGithub size={30} />
+          </a>
+        </li>
+
+        <li className="py-6 text-3xl">
+          <a
+            className="flex justify-between items-center w-full text-gray-300"
+            href="mailto:sumia2135@gmail.com?cc=bavazeer13@gmail.com&bcc=summikhan5426@gmail.com"
+          >
+            Email Me <HiOutlineMail size={30} />
+          </a>
+        </li>
+
+        <li className="py-6 text-3xl">
+          {" "}
+          <a
+            className="flex justify-between items-center w-full text-gray-300"
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume <BsFillPersonLinesFill size={30} />
+          </a>
+        </li>
       </ul>
 
       {/* Social menu */}
@@ -120,7 +162,8 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#79818b]">
-            <a className="flex justify-between items-center w-full text-gray-300"
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
               href={resume}
               target="_blank"
               rel="noopener noreferrer"

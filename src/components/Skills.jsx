@@ -7,8 +7,11 @@ import Github from "../assests/github.png";
 import Node from "../assests/node.png";
 import MongoDB from "../assests/mongo.png";
 import Express from "../assests/express.png";
+import Docker from "../assests/docker.png";
+import Maven from "../assests/maven.png";
+import Jenkins from "../assests/jenkins.png";
 import "../index.css";
-import background from "../assests/background.png"
+import background from "../assests/background.png";
 
 const Skills = () => {
   return (
@@ -16,7 +19,7 @@ const Skills = () => {
     <div
       name="Skills"
       className="w-full h-screen text-gray-300 bg-cover"
-      style={{backgroundImage:`url(${background})`}}
+      style={{ backgroundImage: `url(${background})` }}
     >
       {/* Main Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -30,21 +33,12 @@ const Skills = () => {
         </div>
 
         {/* Image Container */}
-        <div className="w-full grid  grid-cols-2  sm:grid-cols-4  gap-4  text-center py-8">
+        <div className="w-full grid  grid-cols-2  sm:grid-cols-4  gap-4  text-center py-8 ">
+          
           {/* HTML-icon */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon"></img>
+            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" ></img>
             <p className="my-4">HTML</p>
-          </div>
-
-          {/* TailwindCSS-icon */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
-            <img
-              className="w-20 mx-auto"
-              src={TailwindCSS}
-              alt="HTML icon"
-            ></img>
-            <p className="my-4">TailwindCSS</p>
           </div>
 
           {/* JavaScript-icon */}
@@ -52,39 +46,82 @@ const Skills = () => {
             <img
               className="w-20 mx-auto"
               src={JavaScript}
-              alt="HTML icon"
+              alt="JavaScript icon"
             ></img>
             <p className="my-4">JavaScript</p>
           </div>
 
-          {/* React-icon */}
+          
+          {/* MongoDB-icon */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon"></img>
-            <p className="my-4">React</p>
+            <img className="w-20 mx-auto" src={MongoDB} alt="MongoDB icon"></img>
+            <p className="my-4">MongoDB</p>
           </div>
 
-          {/* Github-icon */}
+
+          {/* Express-icon */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Github} alt="HTML icon"></img>
-            <p className="my-4">Github</p>
+            <img className="w-20 mx-auto" src={Express} alt="Express icon"></img>
+            <p className="my-4">Express</p>
+          </div>
+
+          {/* React-icon */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={ReactImg} alt="React icon"></img>
+            <p className="my-4">React</p>
           </div>
 
           {/* Node-icon */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon"></img>
+            <img className="w-20 mx-auto" src={Node} alt="Node icon"></img>
             <p className="my-4">Node</p>
           </div>
 
-          {/* MongoDB-icon */}
+
+          {/* Github-icon */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={MongoDB} alt="HTML icon"></img>
-            <p className="my-4">MongoDB</p>
+            <img className="w-20 mx-auto" src={Github} alt="Github icon"></img>
+            <p className="my-4">Github</p>
           </div>
 
-          {/* Express-icon */}
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Express} alt="HTML icon"></img>
-            <p className="my-4">Express</p>
+          {/* Maven-icon */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
+            <img
+              className="w-20 mx-auto"
+              src={Maven}
+              alt="Maven icon"
+            ></img>
+            <p className="my-4">Maven</p>
+          </div>
+
+          {/* Jenkins-icon */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
+            <img
+              className="w-20 mx-auto"
+              src={Jenkins}
+              alt="Jenkins icon"
+            ></img>
+            <p className="my-4">Jenkins</p>
+          </div>
+
+          {/*Docker-icon */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
+            <img
+              className="w-20 mx-auto"
+              src={Docker}
+              alt="Docker icon"
+            ></img>
+            <p className="my-4">Docker</p>
+          </div>
+
+          {/* TailwindCSS-icon */}
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
+            <img
+              className="w-20 mx-auto"
+              src={TailwindCSS}
+              alt="TailwindCSS icon"
+            ></img>
+            <p className="my-4">TailwindCSS</p>
           </div>
         </div>
       </div>
