@@ -65,27 +65,27 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-2xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-2xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-2xl">
           <Link onClick={handleClick} to="Skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-2xl">
           <Link onClick={handleClick} to="Work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-2xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -93,43 +93,30 @@ const Navbar = () => {
 
         {/* Social menu */}
 
-        <li className="py-6 text-3xl">
+        <li className="py-4 text-2xl">
           <a
             className="flex justify-between items-center w-full text-gray-300"
             href="https://www.linkedin.com/in/sumia-khan-287907298"
           >
-            Linkedin <FaLinkedin size={30} />
+            Linkedin
           </a>
         </li>
 
-        <li className="py-6 text-3xl">
-          {" "}
+        <li className="py-4 text-2xl">
           <a
             className="flex justify-between items-center w-full text-white"
             href="https://www.github.com/Sumiakhan/Projects.git"
           >
-            Github <FaGithub size={30} />
+            Github
           </a>
         </li>
 
-        <li className="py-6 text-3xl">
+        <li className="py-4 text-2xl">
           <a
             className="flex justify-between items-center w-full text-gray-300"
             href="mailto:sumia2135@gmail.com?cc=bavazeer13@gmail.com&bcc=summikhan5426@gmail.com"
           >
-            Email Me <HiOutlineMail size={30} />
-          </a>
-        </li>
-
-        <li className="py-6 text-3xl">
-          {" "}
-          <a
-            className="flex justify-between items-center w-full text-gray-300"
-            href={resume}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume <BsFillPersonLinesFill size={30} />
+            Email Me
           </a>
         </li>
       </ul>

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen text-gray-300 bg-cover"
+      className="w-full h-screen text-gray-300 bg-cover flex flex-auto"
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="flex flex-col justify-center items-center w-full h-full">

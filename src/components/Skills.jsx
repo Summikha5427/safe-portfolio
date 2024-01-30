@@ -18,7 +18,7 @@ const Skills = () => {
     // Main Screen
     <div
       name="Skills"
-      className="w-full h-screen text-gray-300 bg-cover"
+      className="w-full h-screen text-gray-300 bg-cover flex flex-auto"
       style={{ backgroundImage: `url(${background})` }}
     >
       {/* Main Container */}
@@ -33,7 +33,7 @@ const Skills = () => {
         </div>
 
         {/* Image Container */}
-        <div className="w-full grid  grid-cols-2  sm:grid-cols-4  gap-4  text-center py-8 ">
+        <div className="w-full grid  grid-cols-2  sm:grid-cols-4  gap-4  text-center py-8 flex-col ">
           
           {/* HTML-icon */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
